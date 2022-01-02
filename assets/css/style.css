@@ -139,6 +139,27 @@ body {
     body {
       overflow: hidden; } }
 
+  @media (max-width: 991px) {
+    #portafolio-Bread{
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #ajuste-movil-banner{
+      padding-top: 15%;
+    }
+  }
+
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    #ajuste-movil-banner{
+      padding-top: 13%;
+    }
+  }
+
+  
+
 h1,
 h2,
 h3,
@@ -14615,3 +14636,8 @@ body.white-version {
   color: var(--color-white) !important; }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.ajuste-menu{
+  color: #c4cfde;
+}

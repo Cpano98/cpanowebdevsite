@@ -52,7 +52,7 @@ Background Image
 
 @for $i from 1 through 40 {
     .bg_image--#{$i} {
-        background-image: url(../images/bg/bg-image-#{$i}.jpg);
+        background-image: url(../images/slider/B#{$i}.png);
     }
 }
 
