@@ -151,14 +151,11 @@ body {
     }
   }
 
-
   @media (min-width: 768px) and (max-width: 991px) {
     #ajuste-movil-banner{
       padding-top: 13%;
     }
   }
-
-  
 
 h1,
 h2,
