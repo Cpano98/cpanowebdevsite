@@ -33,6 +33,38 @@
 </head>
 
 <body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+    
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108915788077747");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!-- header - developer home -->
     <!-- Start Header -->
     <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
@@ -170,9 +202,7 @@
                                                 <h2 class="title">
                                                     Hola, Soy <span>Carlos!</span>
                                                 </h2>
-                                                <p class="disc"> Prueba Web designer and developer working for
-                                                    envato.com in
-                                                    Me</p>
+                                                <p class="disc">Full stack developer. Me encanta diseñar interfaces amigables con el usuario, así como programarlas en distintas tecnologías. Estoy interesado en el desarrollo de aplicaciones web, así como apps móviles. #ReactLover&#128513;</p>
                                             </div>
                                             <div class="user-info-footer">
                                                 <div class="info">
@@ -234,6 +264,8 @@
                                                     </div>
                                                 </div>
                                                 <!-- End Single Progress Charts -->
+                                                <br>
+                                                <a class="rn-btn mr--30" href="#resume"><span>VER MÁS</span></a>
 
 
 
