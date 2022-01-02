@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Default || Inbio - Personal Portfolio Bootstrap Template</title>
+    <title>Portafolio || Carlos Pano</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/favicon.png">
     <!-- CSS 
     ============================================ -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
@@ -19,9 +19,52 @@
     <link rel="stylesheet" href="assets/css/plugins/feature.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7GE1NJCPV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Y7GE1NJCPV');
+    </script>
+
 </head>
 
 <body class="template-color-1 button-style spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "108915788077747");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <!-- header - developer home -->
     <!-- Start Header -->
     <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
@@ -43,22 +86,23 @@
                     <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block">
                         <!-- Start Mainmanu Nav -->
                         <ul class="primary-menu nav nav-pills">
-                            <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#experiences">Experience</a>
+                            <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Inicio</a></li>
+                            <li class="nav-item"><a href="/portafolio.html">Portafolio</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#educations">Education</a>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#experiences">Experiencia</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#educations">Educación</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#footer">Footer</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Curriculum vitae</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">Mi Blog</a></li>
                         </ul>
                         <!-- End Mainmanu Nav -->
                     </nav>
                     <!-- Start Header Right  -->
                     <div class="header-right">
-                        <a class="rn-btn" href="#contacts"><span>CONTACT ME</span></a>
+                        <a class="rn-btn" target="_blank" href="https://wa.link/1crkkb"
+                            target="_blank"><span>CONTACTARME</span></a>
 
                         <div class="hamberger-menu d-block d-xl-none">
                             <i id="menuBtn" class="feather-menu humberger-menu"></i>
@@ -78,51 +122,48 @@
         </div>
     </header>
     <!-- End Header Area -->
+
     <!-- Start Popup Mobile Menu  -->
     <div class="popup-mobile-menu">
         <div class="inner">
             <div class="menu-top">
                 <div class="menu-header">
                     <a class="logo" href="index.html">
-                        <img src="assets/images/logo/logo.png" alt="Personal Portfolio">
+                        <img src="assets/images/logo/logo.png" alt="Personal Portfolio" hei>
                     </a>
                     <div class="close-button">
                         <button class="close-menu-activation close"><i data-feather="x"></i></button>
                     </div>
                 </div>
-                <p class="discription">Lorem ipsum dolor sit amet consect adipisicing elit repellendus.
+                <p class="discription">Diseñador UI & UX. Desarrollador de aplicaciones web. #ReactLover&#128513;
                 </p>
             </div>
             <div class="content">
                 <ul class="primary-menu nav nav-pills">
-                    <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#experiences">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#educations">Education</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#footer">Footer</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a href="/portafolio.html" target="_blank">Portafolio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#experiences">Experiencia</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#educations">Educación</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Curriculum vitae</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">Mi Blog</a></li>
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
-                    <span class="title">find with me</span>
+                    <span class="title">También estoy en:</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                                </svg></a>
+
+                        <li class="facebook"><a href="https://www.facebook.com/cpano.webdev" target="_blank"><i
+                                    data-feather="facebook"></i></a>
                         </li>
-                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                </svg></a>
+                        <li class="instagram"><a href="https://www.instagram.com/cpano.webdev/" target="_blank"><i
+                                    data-feather="instagram"></i></a>
                         </li>
-                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
-                                    </path>
-                                    <rect x="2" y="9" width="4" height="12"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg></a>
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/carlos-pano/" target="_blank"><i
+                                    data-feather="linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -130,6 +171,7 @@
             </div>
         </div>
     </div>
+    <!-- End Popup Mobile Menu  -->
 
     <main class="main-page-wrapper">
         <!-- Start bread vrumb area -->
@@ -156,19 +198,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" class="section-title text-center">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true"
+                            class="section-title text-center">
                             <h2 class="title">Poftfolio Style One</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row row--25 plr_sm--10">
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-01.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/portfolio-01.jpg"
+                                            alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -190,7 +235,8 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -223,12 +269,14 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-4.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/portfolio-4.jpg"
+                                            alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -249,12 +297,14 @@
                     </div>
                     <!-- End Single Portfolio -->
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-05.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/portfolio-05.jpg"
+                                            alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -276,12 +326,14 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-06.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/portfolio-06.jpg"
+                                            alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -303,12 +355,14 @@
                     <!-- End Single Portfolio -->
 
                     <!-- Start Single Portfolio -->
-                    <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
+                    <div data-aos="fade-up" data-aos-delay="600" data-aos-once="true"
+                        class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_lg--30 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-06.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/portfolio-06.jpg"
+                                            alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -339,14 +393,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" class="section-title text-center">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true"
+                            class="section-title text-center">
                             <h2 class="title">Portfolio Style Two</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row mt--50">
                     <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="portfolio-wrapper portfolio-slick-activation slick-arrow-style-one rn-slick-dot-style">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                            class="portfolio-wrapper portfolio-slick-activation slick-arrow-style-one rn-slick-dot-style">
 
                             <!-- Start Single Portfolio  -->
                             <div class="rn-portfolio-slick">
@@ -354,7 +410,8 @@
                                     <div class="inner">
                                         <div class="thumbnail">
                                             <a href="javascript:void(0)">
-                                                <img src="assets/images/portfolio/portfolio-04.jpg" alt="Personal Portfolio Images">
+                                                <img src="assets/images/portfolio/portfolio-04.jpg"
+                                                    alt="Personal Portfolio Images">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -367,8 +424,8 @@
                                                         650</span>
                                                 </div>
                                             </div>
-                                            <h4 class="title"><a href="javascript:void(0)">The services provide for design<i
-                                                        class="feather-arrow-up-right"></i></a></h4>
+                                            <h4 class="title"><a href="javascript:void(0)">The services provide for
+                                                    design<i class="feather-arrow-up-right"></i></a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +438,8 @@
                                     <div class="inner">
                                         <div class="thumbnail">
                                             <a href="javascript:void(0)">
-                                                <img src="assets/images/portfolio/portfolio-05.jpg" alt="Personal Portfolio Images">
+                                                <img src="assets/images/portfolio/portfolio-05.jpg"
+                                                    alt="Personal Portfolio Images">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -394,8 +452,8 @@
                                                         650</span>
                                                 </div>
                                             </div>
-                                            <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & Services<i
-                                                        class="feather-arrow-up-right"></i></a></h4>
+                                            <h4 class="title"><a href="javascript:void(0)">Mobile app landing design &
+                                                    Services<i class="feather-arrow-up-right"></i></a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +466,8 @@
                                     <div class="inner">
                                         <div class="thumbnail">
                                             <a href="javascript:void(0)">
-                                                <img src="assets/images/portfolio/portfolio-04.jpg" alt="Personal Portfolio Images">
+                                                <img src="assets/images/portfolio/portfolio-04.jpg"
+                                                    alt="Personal Portfolio Images">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -421,8 +480,8 @@
                                                         650</span>
                                                 </div>
                                             </div>
-                                            <h4 class="title"><a href="javascript:void(0)">Web app Responsive design & Services<i
-                                                        class="feather-arrow-up-right"></i></a></h4>
+                                            <h4 class="title"><a href="javascript:void(0)">Web app Responsive design &
+                                                    Services<i class="feather-arrow-up-right"></i></a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -435,7 +494,8 @@
                                     <div class="inner">
                                         <div class="thumbnail">
                                             <a href="javascript:void(0)">
-                                                <img src="assets/images/portfolio/portfolio-06.jpg" alt="Personal Portfolio Images">
+                                                <img src="assets/images/portfolio/portfolio-06.jpg"
+                                                    alt="Personal Portfolio Images">
                                             </a>
                                         </div>
                                         <div class="content">
@@ -448,8 +508,8 @@
                                                         650</span>
                                                 </div>
                                             </div>
-                                            <h4 class="title"><a href="javascript:void(0)">PHP with app landing design & Services<i
-                                                        class="feather-arrow-up-right"></i></a></h4>
+                                            <h4 class="title"><a href="javascript:void(0)">PHP with app landing design &
+                                                    Services<i class="feather-arrow-up-right"></i></a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -469,13 +529,15 @@
 
                 <div class="row">
                     <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true" class="section-title text-left">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true"
+                            class="section-title text-left">
                             <h2 class="title">Portfolio Style Three</h2>
                         </div>
                     </div>
                 </div>
 
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true"
+                    id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <!-- Start Single Item  -->
                         <div class="carousel-item active">
@@ -719,7 +781,8 @@
                 </div>
             </div>
             <div class="copyright text-center ptb--40 section-separator">
-                <p class="description">© 2021. All rights reserved by <a target="_blank" href="https://themeforest.net/user/rainbow-themes/portfolio">Rainbow-Themes.</a></p>
+                <p class="description">© 2021. All rights reserved by <a target="_blank"
+                        href="https://themeforest.net/user/rainbow-themes/portfolio">Rainbow-Themes.</a></p>
             </div>
         </div>
         <!-- Rn footer area end -->
