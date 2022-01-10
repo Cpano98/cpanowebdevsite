@@ -14638,3 +14638,9 @@ body.white-version {
 .ajuste-menu{
   color: #c4cfde;
 }
+
+@media (max-width: 575px){
+  #btn-portafolioMov{
+      margin-top: 50px;
+  }
+}
