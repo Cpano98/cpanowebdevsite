@@ -171,7 +171,8 @@ var PageTransitions = (function ($, options) {
 
         // Checking for 'data-animation' attribute.
         if (!($pageTrigger.attr('data-animation'))) {
-            var animNumber = parseInt(Math.floor(Math.random() * 67) + 1);
+            //var animNumber = parseInt(Math.floor(Math.random() * 67) + 1);
+            var animNumber = Math.floor(Math.random() * (22 - 21 + 1)) + 21;
             $pageTrigger.data('animation',animNumber);
         }
 
