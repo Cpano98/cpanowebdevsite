@@ -909,6 +909,10 @@ textarea.form-control, textarea.form-control:focus {
 .white-space-70 {
   padding-bottom: 70px; 
 }
+
+.white-space-100 {
+  padding-bottom: 100px; 
+}
 /* --- End White Spaces --- */
 
 /* --- Simple Info List --- */
