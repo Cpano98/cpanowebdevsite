@@ -2128,7 +2128,8 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .portfolio-page-carousel .owl-dots .owl-dot.active span, .portfolio-page-carousel .owl-dots .owl-dot:hover span {
-  background: #9e9e9e;
+  background: #00C1A2;
+  border: 1px solid #9e9e9e00;
 }
 
 .portfolio-page-carousel .owl-dots .owl-dot span {
